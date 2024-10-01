@@ -1,0 +1,68 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #1e1e1e; /* Dark grey background */
+    color: white;
+    margin: 0;
+    padding: 20px;
+}
+
+.contact-section .header h1, h1 {
+    color: red; /* Red color for main headings */
+    text-align: center;
+}
+
+.contact-section, .contact-info-section {
+    background-color: #2a2a2a; /* Slightly lighter grey for sections */
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    color: white; /* Adjusted for consistency */
+}
+
+.service-area, .opening-hours, .contact-info {
+    margin-bottom: 20px;
+}
+
+.contact-section .content, .contact-info-section .content {
+    text-align: left;
+    margin-top: 20px;
+}
+
+.contact-info-section {
+    display: flex;
+    justify-content: space-around; /* Distributes space evenly between items */
+    align-items: center; /* Vertically center items in their container */
+}
+
+
+.boxes {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Creates space between the contact method boxes */
+    float: left;
+    margin-left: 40px;
+}
+
+.textforc {
+    background-color: #333; /* Slightly darker background for contrast */
+    padding: 20px; /* Increased padding for larger boxes */
+    border-radius: 5px; /* Optional: adds rounded corners for visual appeal */
+    font-size: 40px; /* Larger font size for better readability */
+}
+
+a {
+    color: red; /* Ensures links follow the established color scheme */
+    text-decoration: none; /* Removes underline from links */
+}
+
+@media (max-width: 600px) {
+    .boxes {
+        display: block; /* Stack boxes on top of each other on small screens */
+        margin-left: auto; /* Center align on small screens */
+        margin-right: auto; /* Center align on small screens */
+    }
+}
+
