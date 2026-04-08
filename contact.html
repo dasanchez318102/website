@@ -11,66 +11,139 @@
 
 <body class="contact">
 
-  <div class="navbar">
+  <div class="navbar_wrap">
+    <div class="navbar_split">
+        <div class="logo_left">
+      <img class="logo-fit" src="images/davidscardetailing_logo-removebg-preview.png" alt="">
+    </div>
+
+    <button class="menu-toggle" id="menuToggle">☰</button>
+
+    <div class="navbar" id="mainNav">
     <a href="index.html">Home</a>
     <a href="about.html">About</a>
-    <!-- Removed dropdown code -->
     <a href="service1.html">Service</a>
-    <!-- End of removed dropdown code -->
     <a href="contact.html">Contact</a>
-  <!-- <img src="images/Logo.jpg" alt="Logo" class="logo"> -->
-  <a href="tel:4152610761">415-261-0761</a>
+    <a href="tel:4152610761">415-261-0761</a>
 
+
+    </div>
+    
+    </div>
 </div>
 
 
 
-<body>
-  <div class="contact-section">
-      <div class="header">
-          <h1>Contact US</h1>
+ <div class="contactpage">
+    <div class="contactussection">
+        <div class="header">
+          <h1 class="header">Contact US</h1>
       </div>
-      <div class="content">
+        
+
+    </div>
+      <Section class="contact-section">
+    
           <div class="service-area">
-              <h2 class="area">SERVICE AREA</h2>
+              <h2 class="fixss">SERVICE AREA</h2>
               <p class="fixss">We Service All Of Bay Area County & OC Surrounding Areas.</p>
           </div>
           <div class="opening-hours">
-              <h2 class="area">OPENING HOURS</h2>
+              <h2 class="fixss">OPENING HOURS</h2>
               <p class="fixss">Mon - Sun: 7am - 7pm<br></p>
           </div>
           <div class="contact-info">
               <p class="fixss">Please Contact Us Via Call/Text For Scheduling an Appointment or Estimate.</p>
               <p class="fixss">ALL Business Collaborations/Sponsors VIA</p>
-          </div>
-      </div>
-  </div>
-  <h1>Get In Touch</h1>
-  <h3>Feel Free To Call/Text For A Free Estimate!!</h3>
-</div>
+        </section>
+        
+
+  <h2 class="getintouch">Get In Touch</h2>
+  <h3 class="getintouch">Feel Free To Call/Text For A Free Estimate!!</h3>
+
 
   <section class="contact-info-section">
       <div class="content">
-          <p><a href="tel:4152610761">415-261-0761</a></p>
-          <p><a href="mailto:davidsmobilecardetailing@gmail.com">davidsmobilecardetailing@gmail.com</a></p>
-          <p><a href="https://www.instagram.com/davids_car_detailing_?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a></p>
+          <a  href="tel:4152610761">Call Us</a>
+          <a  href="mailto:davidsmobilecardetailing@gmail.com">Email us</a>
+          <a  href="https://www.instagram.com/davids_car_detailing_?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a>
       </div>
+
   </section>
+<section class="contact-form-section">
+  <form 
+    id="contactForm" 
+    class="contact-form"
+    action="https://formspree.io/f/mwvwzowl"
+    method="POST"
+  >
+
+    <input 
+      type="text" 
+      name="name" 
+      placeholder="Your Name" 
+      required
+    >
+
+    <input 
+      type="email" 
+      name="email" 
+      placeholder="Your Email" 
+      required
+    >
+
+    <input 
+      type="tel" 
+      name="phone" 
+      placeholder="Your Phone Number"
+      required
+    >
+
+    <textarea 
+      name="message" 
+      placeholder="Your Message" 
+      rows="5" 
+      required
+    ></textarea>
+
+    <button type="submit">Send Message</button>
+
+  </form>
+</section>
+
+
   
-  <footer>
-    &copy; 2024 Car Detailing Services | Follow us:
-    <a href="https://www.youtube.com/@davids_car_detailing9393" target="_blank">
-        <img src="images/youtube.png" alt="YouTube Logo">
-    </a>
-    <a href="https://www.instagram.com/davids_car_detailing_?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr
-    " target="_blank">
-        <img src="images/Instagramlogo.webp" alt="Instagram Logo">
-    </a>
-    <a href="https://www.tiktok.com/@davids_car_detailing_?_t=8p42y3seZ3P&_r=1
-    " target="_blank">
-        <img src="images/download.png" alt="tiktok Logo">
-    </a>
+
+<footer>
+  <div class="footer_box">
+    <div class="left_side_footer">
+      <img src="images/Final logo and cleaned up.png" alt="">
+    </div>
+    <div class="middle_side_footer">
+      <h3 class="footer_h3">Links</h3>
+      <div class="links_middle">
+           <a href="contact.html">Contact</a>
+           <a href="about.html">About Us</a>
+           <a href="#gallery">Gallery</a>
+           <a href="contact.html">Book Now </a>
+      </div>
+    </div>
+
+    <div class="right_side_footer">
+      <h3 class="footer_h3">Contact</h3>
+      <div class="links_middle">
+        <a  href="tel:4152610761"> Call Us</a>
+           <a  href="https://www.instagram.com/davids_car_detailing_?igsh=OGQ5ZDc2ODk2ZA%3D%3D&utm_source=qr" target="_blank" rel="noopener noreferrer">Instagram</a>
+          <a  href="mailto:davidsmobilecardetailing@gmail.com">Email Us </a>
+      </div>
+    </div>
+
+
+
+  </div>
+
 </footer>
+<script src="main.js"></script>
 
 
 
